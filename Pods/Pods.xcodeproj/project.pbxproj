@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25C38FD59B30B0FD31822ED983498941 /* Pods-QuizClashUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13357E79DE553395B33E604FD48FDD84 /* Pods-QuizClashUITests-dummy.m */; };
+		29BEF43B537B85532563E183E6273938 /* Pods-QuizClashTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 759B3E53758960B54052A902142AB142 /* Pods-QuizClashTests-dummy.m */; };
+		4A33A7BF485E3BEADAD3217443589CFF /* Pods-QuizClash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD0D6A8AA7651442D48F5795F081262 /* Pods-QuizClash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53CEC20392E214CE8539FD04A7921F01 /* Pods-QuizClash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96347A08E55D4DBDC5C6999610118885 /* Pods-QuizClash-dummy.m */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D7B16721E888846204CBA21B058064 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CA103155C802E96EF1CAE6A0AC63A03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6E5FD95C33A8560927FEBD64FEF9F340 /* Pods-QuizClashUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A04F256BD40F569A654CCF94FF44EC80 /* Pods-QuizClashUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF6E1E29787F5CB39A8070C28D96016 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		909FF9C19ED1E1A9870898C3B0946E8C /* Pods-QuizClashTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA5C00A1EC50DC4E99B072ECBEC09FD /* Pods-QuizClashTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D8270363EC105474B375D84546A92A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCDD21E7F88A39173EDAA6772C0A4F5 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECD2AB318AB2F74122885FCB9F27D21A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C2DE2C83F22D19F1BCBF830F013496 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A7291714F1AFB288EBD6B7AD923825 /* GoogleToolboxForMac-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35C4B9B324B7B5321EC08DDA927E6EB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C9542F86D57CD012924C27ADDBD319 /* Pods-QuizClash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QuizClash.modulemap"; sourceTree = "<group>"; };
+		0E561A4EBBFA5CC1336228484604871C /* Pods-QuizClashTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizClashTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13357E79DE553395B33E604FD48FDD84 /* Pods-QuizClashUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizClashUITests-dummy.m"; sourceTree = "<group>"; };
+		14C9D3A80C31FDB3C9B77D040E7CC77C /* Pods-QuizClash-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizClash-frameworks.sh"; sourceTree = "<group>"; };
+		1BD0D6A8AA7651442D48F5795F081262 /* Pods-QuizClash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizClash-umbrella.h"; sourceTree = "<group>"; };
+		1BF6E1E29787F5CB39A8070C28D96016 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		1DAF51C40BB733E20509C9BDE1C5593E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FCB9F370E6E0DF2829A71D3AC2637D /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		2B893663EB59222A0FD3B76E669324F4 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA5C00A1EC50DC4E99B072ECBEC09FD /* Pods-QuizClashTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizClashTests-umbrella.h"; sourceTree = "<group>"; };
+		3DDCF923602761310DDA5BE00B1CD027 /* Pods-QuizClashUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizClashUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53EC62955A8F55B51410F922AA45A4C4 /* Pods-QuizClashUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizClashUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CFF873328E5282A9E99CC54A9B22961 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6827BFC907CAF33AB93BF2DFA2C04E13 /* Pods-QuizClash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizClash.debug.xcconfig"; sourceTree = "<group>"; };
+		68851B47F7A8E26989CA526F3FADB693 /* Pods-QuizClashUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QuizClashUITests.modulemap"; sourceTree = "<group>"; };
+		7031267866E37CD57B579B8C8584BCE9 /* Pods-QuizClashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizClashUITests.release.xcconfig"; sourceTree = "<group>"; };
+		759B3E53758960B54052A902142AB142 /* Pods-QuizClashTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizClashTests-dummy.m"; sourceTree = "<group>"; };
+		89776470BE73F249FD8EEF3C350A54FC /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		8ACD39ABD2E9AEA6745DBD785AF66DD8 /* Pods-QuizClashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizClashTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D54E58ED40D40C7810CC8DBFA43CD45 /* Pods-QuizClashTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizClashTests-resources.sh"; sourceTree = "<group>"; };
+		8E630201BC9B580C9DF9C036A65A97B7 /* Pods_QuizClash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuizClash.framework; path = "Pods-QuizClash.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C2DE2C83F22D19F1BCBF830F013496 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958558EC3617DEDFF4F51A90787AF0E0 /* Pods-QuizClash-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizClash-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96347A08E55D4DBDC5C6999610118885 /* Pods-QuizClash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizClash-dummy.m"; sourceTree = "<group>"; };
+		966E1B1F0F103185317F13C354716FE6 /* Pods_QuizClashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuizClashTests.framework; path = "Pods-QuizClashTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		982C47675E0924A48DF4F9D326BE3114 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		A04F256BD40F569A654CCF94FF44EC80 /* Pods-QuizClashUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizClashUITests-umbrella.h"; sourceTree = "<group>"; };
+		A21B846AC67CF7696C36BE2F0F0D83AB /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		AA3B3CDC880C8D658293402254A81E7C /* Pods-QuizClash-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizClash-resources.sh"; sourceTree = "<group>"; };
+		ABB7F41B12F7A39688FF0E41672E4EBA /* Pods-QuizClashTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizClashTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD00C62527977DE6D8393DDA1CC1F6C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAF73877664A301F95E0FE623D2EF26 /* Pods-QuizClash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizClash.release.xcconfig"; sourceTree = "<group>"; };
+		AFCDD21E7F88A39173EDAA6772C0A4F5 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		B2A7291714F1AFB288EBD6B7AD923825 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		B887B3976B2DFF4A3BFA650C4398998C /* Pods_QuizClashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuizClashUITests.framework; path = "Pods-QuizClashUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7141B9842B6353055EFAB5E4B503153 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87836FB1A8F2BE2928AA3880792BD23 /* Pods-QuizClashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizClashUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB970382F8889D98D165BDC71FD5F657 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		DDDAE802CCC43D41875752EBF2B49A8D /* Pods-QuizClashTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QuizClashTests.modulemap"; sourceTree = "<group>"; };
+		E1AFD0DFA3094C10F9F3F60E4C8F935E /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		EC0717816AAFF7AD33E97267DAF909BC /* Pods-QuizClashTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizClashTests-frameworks.sh"; sourceTree = "<group>"; };
+		EF3BD9DD3CF6254EC3F2DE90FCD8A58F /* Pods-QuizClashUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizClashUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EFF9F09E05A90C2BA5ECCB73F2780241 /* Pods-QuizClashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizClashTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3F0D356EF63ED688C223E1FB5744434 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		F653F234172D57B63B888068997DA438 /* Pods-QuizClashUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizClashUITests-resources.sh"; sourceTree = "<group>"; };
+		F6D7B16721E888846204CBA21B058064 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		FCE28053A58F3CBF8B7496F868F64E6B /* Pods-QuizClash-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizClash-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		413F54E11A13D16AAD143CD5AA7B85DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA103155C802E96EF1CAE6A0AC63A03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DD5D094A4AC996260A9D871031CD6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD2AB318AB2F74122885FCB9F27D21A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC24BC4CD85B6A207D5D25BAEFEADAC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8270363EC105474B375D84546A92A95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B9DD195B2EB39875CE4F9DB0CA2B46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1AFD0DFA3094C10F9F3F60E4C8F935E /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EAD6E6A0E36F4CA0A4E06B5DDFCF1CE /* Pods-QuizClash */ = {
+			isa = PBXGroup;
+			children = (
+				1DAF51C40BB733E20509C9BDE1C5593E /* Info.plist */,
+				07C9542F86D57CD012924C27ADDBD319 /* Pods-QuizClash.modulemap */,
+				958558EC3617DEDFF4F51A90787AF0E0 /* Pods-QuizClash-acknowledgements.markdown */,
+				FCE28053A58F3CBF8B7496F868F64E6B /* Pods-QuizClash-acknowledgements.plist */,
+				96347A08E55D4DBDC5C6999610118885 /* Pods-QuizClash-dummy.m */,
+				14C9D3A80C31FDB3C9B77D040E7CC77C /* Pods-QuizClash-frameworks.sh */,
+				AA3B3CDC880C8D658293402254A81E7C /* Pods-QuizClash-resources.sh */,
+				1BD0D6A8AA7651442D48F5795F081262 /* Pods-QuizClash-umbrella.h */,
+				6827BFC907CAF33AB93BF2DFA2C04E13 /* Pods-QuizClash.debug.xcconfig */,
+				AFAF73877664A301F95E0FE623D2EF26 /* Pods-QuizClash.release.xcconfig */,
+			);
+			name = "Pods-QuizClash";
+			path = "Target Support Files/Pods-QuizClash";
+			sourceTree = "<group>";
+		};
+		0F661C3C91B498281B0DD65BA7511AF1 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				F6D7B16721E888846204CBA21B058064 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		1902584E8A324636B983CA3D69528EAC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				982C47675E0924A48DF4F9D326BE3114 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1BB83A55EE4F26A09FDEB7D8C4EFE9D4 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				00B9DD195B2EB39875CE4F9DB0CA2B46 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		1EE6C40DEAB56583720DC8110049EBAE /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				0F661C3C91B498281B0DD65BA7511AF1 /* Defines */,
+				993CE1B8349B2BD154287EDDE86393AF /* NSData+zlib */,
+				DD3A40A5414B21FDD8FC8F3258B79CED /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		2284E6854AEBDD17F420B24354609F96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43C8441995161C3CDF44AADF5762D23F /* Firebase */,
+				1BB83A55EE4F26A09FDEB7D8C4EFE9D4 /* FirebaseAnalytics */,
+				258BB75673CE772971E44717A9FE161E /* FirebaseCore */,
+				E87A63BCF37F31D242208A3C2B333B8B /* FirebaseInstanceID */,
+				1EE6C40DEAB56583720DC8110049EBAE /* GoogleToolboxForMac */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24449EE68F70D049F3E2D193CEF8486A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F0D356EF63ED688C223E1FB5744434 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		258BB75673CE772971E44717A9FE161E /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				24449EE68F70D049F3E2D193CEF8486A /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		43C8441995161C3CDF44AADF5762D23F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				1902584E8A324636B983CA3D69528EAC /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		5FE333CF71495701BEC5077B9515D703 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EAD6E6A0E36F4CA0A4E06B5DDFCF1CE /* Pods-QuizClash */,
+				B9C3FDF1F7C9E88A52ECE700AE006341 /* Pods-QuizClashTests */,
+				7D462B33D2774987E2A3E6037223A64A /* Pods-QuizClashUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6A688ABAD341628EDAD5392E5A0BB365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B893663EB59222A0FD3B76E669324F4 /* GoogleToolboxForMac.framework */,
+				8E630201BC9B580C9DF9C036A65A97B7 /* Pods_QuizClash.framework */,
+				966E1B1F0F103185317F13C354716FE6 /* Pods_QuizClashTests.framework */,
+				B887B3976B2DFF4A3BFA650C4398998C /* Pods_QuizClashUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D462B33D2774987E2A3E6037223A64A /* Pods-QuizClashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD00C62527977DE6D8393DDA1CC1F6C0 /* Info.plist */,
+				68851B47F7A8E26989CA526F3FADB693 /* Pods-QuizClashUITests.modulemap */,
+				53EC62955A8F55B51410F922AA45A4C4 /* Pods-QuizClashUITests-acknowledgements.markdown */,
+				3DDCF923602761310DDA5BE00B1CD027 /* Pods-QuizClashUITests-acknowledgements.plist */,
+				13357E79DE553395B33E604FD48FDD84 /* Pods-QuizClashUITests-dummy.m */,
+				EF3BD9DD3CF6254EC3F2DE90FCD8A58F /* Pods-QuizClashUITests-frameworks.sh */,
+				F653F234172D57B63B888068997DA438 /* Pods-QuizClashUITests-resources.sh */,
+				A04F256BD40F569A654CCF94FF44EC80 /* Pods-QuizClashUITests-umbrella.h */,
+				D87836FB1A8F2BE2928AA3880792BD23 /* Pods-QuizClashUITests.debug.xcconfig */,
+				7031267866E37CD57B579B8C8584BCE9 /* Pods-QuizClashUITests.release.xcconfig */,
+			);
+			name = "Pods-QuizClashUITests";
+			path = "Target Support Files/Pods-QuizClashUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2284E6854AEBDD17F420B24354609F96 /* Pods */,
+				6A688ABAD341628EDAD5392E5A0BB365 /* Products */,
+				5FE333CF71495701BEC5077B9515D703 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		993CE1B8349B2BD154287EDDE86393AF /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				AFCDD21E7F88A39173EDAA6772C0A4F5 /* GTMNSData+zlib.h */,
+				92C2DE2C83F22D19F1BCBF830F013496 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		A74D88AB047B2B5C4DE5A5AA644ADCAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB970382F8889D98D165BDC71FD5F657 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9C3FDF1F7C9E88A52ECE700AE006341 /* Pods-QuizClashTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CFF873328E5282A9E99CC54A9B22961 /* Info.plist */,
+				DDDAE802CCC43D41875752EBF2B49A8D /* Pods-QuizClashTests.modulemap */,
+				0E561A4EBBFA5CC1336228484604871C /* Pods-QuizClashTests-acknowledgements.markdown */,
+				ABB7F41B12F7A39688FF0E41672E4EBA /* Pods-QuizClashTests-acknowledgements.plist */,
+				759B3E53758960B54052A902142AB142 /* Pods-QuizClashTests-dummy.m */,
+				EC0717816AAFF7AD33E97267DAF909BC /* Pods-QuizClashTests-frameworks.sh */,
+				8D54E58ED40D40C7810CC8DBFA43CD45 /* Pods-QuizClashTests-resources.sh */,
+				3AA5C00A1EC50DC4E99B072ECBEC09FD /* Pods-QuizClashTests-umbrella.h */,
+				8ACD39ABD2E9AEA6745DBD785AF66DD8 /* Pods-QuizClashTests.debug.xcconfig */,
+				EFF9F09E05A90C2BA5ECCB73F2780241 /* Pods-QuizClashTests.release.xcconfig */,
+			);
+			name = "Pods-QuizClashTests";
+			path = "Target Support Files/Pods-QuizClashTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD3A40A5414B21FDD8FC8F3258B79CED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20FCB9F370E6E0DF2829A71D3AC2637D /* GoogleToolboxForMac.modulemap */,
+				89776470BE73F249FD8EEF3C350A54FC /* GoogleToolboxForMac.xcconfig */,
+				B2A7291714F1AFB288EBD6B7AD923825 /* GoogleToolboxForMac-dummy.m */,
+				A21B846AC67CF7696C36BE2F0F0D83AB /* GoogleToolboxForMac-prefix.pch */,
+				1BF6E1E29787F5CB39A8070C28D96016 /* GoogleToolboxForMac-umbrella.h */,
+				C7141B9842B6353055EFAB5E4B503153 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		E87A63BCF37F31D242208A3C2B333B8B /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				A74D88AB047B2B5C4DE5A5AA644ADCAB /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4512F8906261959DA02BF3BF1DED22BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909FF9C19ED1E1A9870898C3B0946E8C /* Pods-QuizClashTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC37C8A4A7BAE44C989555DA30E342C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A33A7BF485E3BEADAD3217443589CFF /* Pods-QuizClash-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7738821AB8B83E35620760FE963D1194 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5FD95C33A8560927FEBD64FEF9F340 /* Pods-QuizClashUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 2B893663EB59222A0FD3B76E669324F4 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D9ED50388BD90027242ABFE77F66163 /* Pods-QuizClashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF9E72436388130E6BE5B218FE1019E /* Build configuration list for PBXNativeTarget "Pods-QuizClashTests" */;
+			buildPhases = (
+				C740973EF2B7ABDEF6370ED414387540 /* Sources */,
+				413F54E11A13D16AAD143CD5AA7B85DB /* Frameworks */,
+				4512F8906261959DA02BF3BF1DED22BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QuizClashTests";
+			productName = "Pods-QuizClashTests";
+			productReference = 966E1B1F0F103185317F13C354716FE6 /* Pods_QuizClashTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6E1540855EA8DE7BCA9196B0B5B710A /* Pods-QuizClashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A5D8CDC5E948D4FC344AB798302F26 /* Build configuration list for PBXNativeTarget "Pods-QuizClashUITests" */;
+			buildPhases = (
+				85FC91CAC03EC011E09ED882B0A9E55C /* Sources */,
+				DC24BC4CD85B6A207D5D25BAEFEADAC5 /* Frameworks */,
+				7738821AB8B83E35620760FE963D1194 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QuizClashUITests";
+			productName = "Pods-QuizClashUITests";
+			productReference = B887B3976B2DFF4A3BFA650C4398998C /* Pods_QuizClashUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F40E1E651C465B4571E11A2D9E9AA195 /* Pods-QuizClash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE1E920F75455955DD713EEC3E225B9 /* Build configuration list for PBXNativeTarget "Pods-QuizClash" */;
+			buildPhases = (
+				448694DB073B7A015A4E023C5EFFC16D /* Sources */,
+				5DD5D094A4AC996260A9D871031CD6F7 /* Frameworks */,
+				5AC37C8A4A7BAE44C989555DA30E342C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				250E68FE8622AB1D4F5EE95CB808D7A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuizClash";
+			productName = "Pods-QuizClash";
+			productReference = 8E630201BC9B580C9DF9C036A65A97B7 /* Pods_QuizClash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6A688ABAD341628EDAD5392E5A0BB365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				F40E1E651C465B4571E11A2D9E9AA195 /* Pods-QuizClash */,
+				3D9ED50388BD90027242ABFE77F66163 /* Pods-QuizClashTests */,
+				B6E1540855EA8DE7BCA9196B0B5B710A /* Pods-QuizClashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		448694DB073B7A015A4E023C5EFFC16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CEC20392E214CE8539FD04A7921F01 /* Pods-QuizClash-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FC91CAC03EC011E09ED882B0A9E55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C38FD59B30B0FD31822ED983498941 /* Pods-QuizClashUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C740973EF2B7ABDEF6370ED414387540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BEF43B537B85532563E183E6273938 /* Pods-QuizClashTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		250E68FE8622AB1D4F5EE95CB808D7A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 35C4B9B324B7B5321EC08DDA927E6EB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B3B7E252BF489A39E58143A64571C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6827BFC907CAF33AB93BF2DFA2C04E13 /* Pods-QuizClash.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizClash/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizClash/Pods-QuizClash.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizClash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		29201985CEF4FA6488F9E9DF79D1B0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ACD39ABD2E9AEA6745DBD785AF66DD8 /* Pods-QuizClashTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizClashTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizClashTests/Pods-QuizClashTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizClashTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E3BB37312E5D4518EDFAD78B7C89440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89776470BE73F249FD8EEF3C350A54FC /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6263ACAB7F48AFCEFE61649D99D114C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAF73877664A301F95E0FE623D2EF26 /* Pods-QuizClash.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizClash/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizClash/Pods-QuizClash.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizClash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C28479335D34C715A83F8057500999F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87836FB1A8F2BE2928AA3880792BD23 /* Pods-QuizClashUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizClashUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizClashUITests/Pods-QuizClashUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizClashUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89776470BE73F249FD8EEF3C350A54FC /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2AD42FD132B5A083C14B06E0DAE4F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF9F09E05A90C2BA5ECCB73F2780241 /* Pods-QuizClashTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizClashTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizClashTests/Pods-QuizClashTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizClashTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6ACEC5B02D2D4141E4533F0AE4A06EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7031267866E37CD57B579B8C8584BCE9 /* Pods-QuizClashUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizClashUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizClashUITests/Pods-QuizClashUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizClashUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AF9E72436388130E6BE5B218FE1019E /* Build configuration list for PBXNativeTarget "Pods-QuizClashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29201985CEF4FA6488F9E9DF79D1B0E9 /* Debug */,
+				D2AD42FD132B5A083C14B06E0DAE4F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A5D8CDC5E948D4FC344AB798302F26 /* Build configuration list for PBXNativeTarget "Pods-QuizClashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C28479335D34C715A83F8057500999F /* Debug */,
+				F6ACEC5B02D2D4141E4533F0AE4A06EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */,
+				4E3BB37312E5D4518EDFAD78B7C89440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE1E920F75455955DD713EEC3E225B9 /* Build configuration list for PBXNativeTarget "Pods-QuizClash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B3B7E252BF489A39E58143A64571C6B /* Debug */,
+				6263ACAB7F48AFCEFE61649D99D114C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

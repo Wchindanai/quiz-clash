@@ -1,0 +1,6 @@
+framework module Pods_QuizClashUITests {
+  umbrella header "Pods-QuizClashUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
