@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,10 @@
 		F103A4B71ECB116C00195E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F103A4B51ECB116C00195E3B /* LaunchScreen.storyboard */; };
 		F103A4C21ECB116D00195E3B /* QuizClashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103A4C11ECB116D00195E3B /* QuizClashTests.swift */; };
 		F103A4CD1ECB116D00195E3B /* QuizClashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103A4CC1ECB116D00195E3B /* QuizClashUITests.swift */; };
-		F4B26226B9464728ABB6CD58 /* Pods_QuizClash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509815D5F1C2CAA3C0634A47 /* Pods_QuizClash.framework */; };
+		F1E362C81ECC9BEA0083380F /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E362C71ECC9BEA0083380F /* RegisterController.swift */; };
+		F1E362CA1ECCAC340083380F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E362C91ECCAC340083380F /* GoogleService-Info.plist */; };
+		F1E362CD1ECCCB170083380F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E362CB1ECCCB170083380F /* HomeController.swift */; };
+		F4B26226B9464728ABB6CD58 /* Pods_QuizClash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509815D5F1C2CAA3C0634A47 /* Pods_QuizClash.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		F103A4C81ECB116D00195E3B /* QuizClashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizClashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F103A4CC1ECB116D00195E3B /* QuizClashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizClashUITests.swift; sourceTree = "<group>"; };
 		F103A4CE1ECB116D00195E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E362C71ECC9BEA0083380F /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		F1E362C91ECCAC340083380F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1E362CB1ECCCB170083380F /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +143,10 @@
 		F103A4AB1ECB116C00195E3B /* QuizClash */ = {
 			isa = PBXGroup;
 			children = (
+				F1E362C91ECCAC340083380F /* GoogleService-Info.plist */,
+				F103A4DE1ECB82E200195E3B /* Models */,
 				F103A4AC1ECB116C00195E3B /* AppDelegate.swift */,
-				F103A4AE1ECB116C00195E3B /* ViewController.swift */,
+				F103A4DC1ECB82CE00195E3B /* Controllers */,
 				F103A4B01ECB116C00195E3B /* Main.storyboard */,
 				F103A4B31ECB116C00195E3B /* Assets.xcassets */,
 				F103A4B51ECB116C00195E3B /* LaunchScreen.storyboard */,
@@ -163,6 +171,23 @@
 				F103A4CE1ECB116D00195E3B /* Info.plist */,
 			);
 			path = QuizClashUITests;
+			sourceTree = "<group>";
+		};
+		F103A4DC1ECB82CE00195E3B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F103A4AE1ECB116C00195E3B /* ViewController.swift */,
+				F1E362C71ECC9BEA0083380F /* RegisterController.swift */,
+				F1E362CB1ECCCB170083380F /* HomeController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F103A4DE1ECB82E200195E3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +282,7 @@
 				};
 			};
 			buildConfigurationList = F103A4A41ECB116C00195E3B /* Build configuration list for PBXProject "QuizClash" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -282,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F103A4B71ECB116C00195E3B /* LaunchScreen.storyboard in Resources */,
+				F1E362CA1ECCAC340083380F /* GoogleService-Info.plist in Resources */,
 				F103A4B41ECB116C00195E3B /* Assets.xcassets in Resources */,
 				F103A4B21ECB116C00195E3B /* Main.storyboard in Resources */,
 			);
@@ -446,8 +472,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E362CD1ECCCB170083380F /* HomeController.swift in Sources */,
 				F103A4AF1ECB116C00195E3B /* ViewController.swift in Sources */,
 				F103A4AD1ECB116C00195E3B /* AppDelegate.swift in Sources */,
+				F1E362C81ECC9BEA0083380F /* RegisterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,9 +629,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80F12ED585722E948572747B /* Pods-QuizClash.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3EEG872KQD;
 				INFOPLIST_FILE = QuizClash/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.QuizClash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -614,9 +641,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F8450BAD185701A43D6E31E /* Pods-QuizClash.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3EEG872KQD;
 				INFOPLIST_FILE = QuizClash/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.QuizClash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -629,6 +655,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3EEG872KQD;
 				INFOPLIST_FILE = QuizClashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.QuizClashTests;
@@ -644,6 +671,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3EEG872KQD;
 				INFOPLIST_FILE = QuizClashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.QuizClashTests;
@@ -658,6 +686,7 @@
 			baseConfigurationReference = 991FAFFAC392925432E4013F /* Pods-QuizClashUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3EEG872KQD;
 				INFOPLIST_FILE = QuizClashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.QuizClashUITests;
@@ -672,6 +701,7 @@
 			baseConfigurationReference = 515332A14E0851D9727C3034 /* Pods-QuizClashUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3EEG872KQD;
 				INFOPLIST_FILE = QuizClashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.QuizClashUITests;
