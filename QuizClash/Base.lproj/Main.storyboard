@@ -57,6 +57,9 @@
                                         <integer key="value" value="12"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SignInMethod:" destination="BYZ-38-t0r" eventType="touchDown" id="bwT-yB-fGf"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pE9-fg-H2n">
                                 <rect key="frame" x="0.0" y="64" width="414" height="44"/>
@@ -113,6 +116,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Sign In" id="WhC-GT-jU4"/>
+                    <connections>
+                        <outlet property="email" destination="35m-wN-kd8" id="eej-hc-fkN"/>
+                        <outlet property="password" destination="1ab-nl-DJJ" id="ZF8-oW-FKj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

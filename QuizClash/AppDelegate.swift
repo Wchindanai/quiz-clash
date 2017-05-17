@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationBarAppearace.barTintColor = UIColor(red:0.31, green:0.35, blue:0.40, alpha:1.0)
         navigationBarAppearace.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         //Configure Firebase
-        FirebaseApp.configure()
+        FIRApp.configure()
 
         return true
     }
