@@ -18,6 +18,7 @@
 		F103A4CD1ECB116D00195E3B /* QuizClashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103A4CC1ECB116D00195E3B /* QuizClashUITests.swift */; };
 		F1E362C81ECC9BEA0083380F /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E362C71ECC9BEA0083380F /* RegisterController.swift */; };
 		F1E362CA1ECCAC340083380F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E362C91ECCAC340083380F /* GoogleService-Info.plist */; };
+		F1E362CD1ECCCB170083380F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E362CB1ECCCB170083380F /* HomeController.swift */; };
 		F4B26226B9464728ABB6CD58 /* Pods_QuizClash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509815D5F1C2CAA3C0634A47 /* Pods_QuizClash.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		F103A4CE1ECB116D00195E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1E362C71ECC9BEA0083380F /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		F1E362C91ECCAC340083380F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1E362CB1ECCCB170083380F /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +145,6 @@
 			children = (
 				F1E362C91ECCAC340083380F /* GoogleService-Info.plist */,
 				F103A4DE1ECB82E200195E3B /* Models */,
-				F103A4DD1ECB82DB00195E3B /* Views */,
 				F103A4AC1ECB116C00195E3B /* AppDelegate.swift */,
 				F103A4DC1ECB82CE00195E3B /* Controllers */,
 				F103A4B01ECB116C00195E3B /* Main.storyboard */,
@@ -177,15 +178,9 @@
 			children = (
 				F103A4AE1ECB116C00195E3B /* ViewController.swift */,
 				F1E362C71ECC9BEA0083380F /* RegisterController.swift */,
+				F1E362CB1ECCCB170083380F /* HomeController.swift */,
 			);
 			name = Controllers;
-			sourceTree = "<group>";
-		};
-		F103A4DD1ECB82DB00195E3B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Views;
 			sourceTree = "<group>";
 		};
 		F103A4DE1ECB82E200195E3B /* Models */ = {
@@ -477,6 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E362CD1ECCCB170083380F /* HomeController.swift in Sources */,
 				F103A4AF1ECB116C00195E3B /* ViewController.swift in Sources */,
 				F103A4AD1ECB116C00195E3B /* AppDelegate.swift in Sources */,
 				F1E362C81ECC9BEA0083380F /* RegisterController.swift in Sources */,
