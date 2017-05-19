@@ -15,7 +15,7 @@ class HomeController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var ref: FIRDatabaseReference?
     var databaseHandle: FIRDatabaseHandle?
-    var list : [String] = ["HelloWorld", "Hello"]
+    var list : [String] = []
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return(list.count)
@@ -40,9 +40,9 @@ class HomeController: UIViewController, UITableViewDelegate, UITableViewDataSour
         ref?.observe(FIRDataEventType.childAdded, with: { (snapshot) in
             let date = snapshot.childSnapshot(forPath: "date")
             let score = snapshot.childSnapshot(forPath: "score")
-            let history = "\(date) - \(score)"
-//            self.list.append(history)
-//            self.tableView.reloadData()
+            let history = "Date \(date.value.unsafelyUnwrapped) - Score \(score.value.unsafelyUnwrapped)"
+            self.list.append(history)
+            self.tableView.reloadData()
         })
         
         
