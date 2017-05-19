@@ -8,6 +8,7 @@ target 'QuizClash' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'Firebase/Auth'
+  pod 'DLRadioButton'
 
 
   # Pods for QuizClash

@@ -16,6 +16,9 @@
 		F103A4B71ECB116C00195E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F103A4B51ECB116C00195E3B /* LaunchScreen.storyboard */; };
 		F103A4C21ECB116D00195E3B /* QuizClashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103A4C11ECB116D00195E3B /* QuizClashTests.swift */; };
 		F103A4CD1ECB116D00195E3B /* QuizClashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103A4CC1ECB116D00195E3B /* QuizClashUITests.swift */; };
+		F1343B1C1ECE0562001F11BB /* PlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1343B1B1ECE0562001F11BB /* PlayController.swift */; };
+		F1343B1E1ECE11DE001F11BB /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1343B1D1ECE11DE001F11BB /* QuestionController.swift */; };
+		F1343B221ECEAE7B001F11BB /* ScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1343B211ECEAE7B001F11BB /* ScoreController.swift */; };
 		F1E362C81ECC9BEA0083380F /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E362C71ECC9BEA0083380F /* RegisterController.swift */; };
 		F1E362CA1ECCAC340083380F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E362C91ECCAC340083380F /* GoogleService-Info.plist */; };
 		F1E362CD1ECCCB170083380F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E362CB1ECCCB170083380F /* HomeController.swift */; };
@@ -62,6 +65,10 @@
 		F103A4C81ECB116D00195E3B /* QuizClashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizClashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F103A4CC1ECB116D00195E3B /* QuizClashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizClashUITests.swift; sourceTree = "<group>"; };
 		F103A4CE1ECB116D00195E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1343B171ECDF19B001F11BB /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		F1343B1B1ECE0562001F11BB /* PlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayController.swift; sourceTree = "<group>"; };
+		F1343B1D1ECE11DE001F11BB /* QuestionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
+		F1343B211ECEAE7B001F11BB /* ScoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreController.swift; sourceTree = "<group>"; };
 		F1E362C71ECC9BEA0083380F /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		F1E362C91ECCAC340083380F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F1E362CB1ECCCB170083380F /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -111,6 +118,7 @@
 		AE2F67ECC6DF02C18405F44A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1343B171ECDF19B001F11BB /* iAd.framework */,
 				509815D5F1C2CAA3C0634A47 /* Pods_QuizClash.framework */,
 				883F1845AEBCAF8AF79BD6C0 /* Pods_QuizClashTests.framework */,
 				E2A06D8D31199173BAEEF1B0 /* Pods_QuizClashUITests.framework */,
@@ -179,6 +187,9 @@
 				F103A4AE1ECB116C00195E3B /* ViewController.swift */,
 				F1E362C71ECC9BEA0083380F /* RegisterController.swift */,
 				F1E362CB1ECCCB170083380F /* HomeController.swift */,
+				F1343B1B1ECE0562001F11BB /* PlayController.swift */,
+				F1343B1D1ECE11DE001F11BB /* QuestionController.swift */,
+				F1343B211ECEAE7B001F11BB /* ScoreController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -475,7 +486,10 @@
 				F1E362CD1ECCCB170083380F /* HomeController.swift in Sources */,
 				F103A4AF1ECB116C00195E3B /* ViewController.swift in Sources */,
 				F103A4AD1ECB116C00195E3B /* AppDelegate.swift in Sources */,
+				F1343B221ECEAE7B001F11BB /* ScoreController.swift in Sources */,
 				F1E362C81ECC9BEA0083380F /* RegisterController.swift in Sources */,
+				F1343B1C1ECE0562001F11BB /* PlayController.swift in Sources */,
+				F1343B1E1ECE11DE001F11BB /* QuestionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
